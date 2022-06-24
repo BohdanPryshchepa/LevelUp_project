@@ -1,0 +1,85 @@
+.menu{
+position: relative;
+display: flex;
+align-items: center;
+padding-top: 40px;
+justify-content: space-between;
+}
+.menu_list{
+display: flex;
+gap: 45px;
+}
+.icons_header{
+    display: flex;
+    gap: 40.57px;
+}
+.menu_list li a{
+    color: #000;
+}
+.menu_list li a:hover{
+    color:#D84A6B;
+    font-weight: 700;
+    }
+.btn_cart{
+    background-color: transparent;
+    border: none;
+}    
+.shop-cart-buttonfalse{
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+}
+.shop-cart-buttonfalse:hover,
+.shop-cart-button.active{
+   
+    transform: scale(1.5);
+}
+.shop-cart{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 50%;
+    z-index: 1000;
+    opacity: 0.9;
+    border-radius: 20px;
+    background: #D84A6B;
+    box-shadow: 6px 10px 15px -7px #606060;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.shop-cart .empty{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.shop-cart .item{
+   width: 100%;
+    float: left;
+    padding-bottom: 10px;
+}
+.shop-cart .item img{
+   width: 70px;
+   float: left;
+   padding: 10px;
+
+}
+.shop-cart .item h4{
+font-size: 20px;
+margin-bottom: 10px;
+color: #FAEADB; ;
+}
+.shop-cart .item .delete-icon{
+   float: right;
+   position: relative;
+   top: -35px;
+   cursor: pointer;
+   transition: color, transform 500ms ease;
+}
+.shop-cart .item .delete-icon:hover{
+    color: #ffffff;
+    transform: scale(1.5);
+}
+.shop-cart .sum{
+    float: left;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 5px;
+}

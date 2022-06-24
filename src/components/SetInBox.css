@@ -1,0 +1,35 @@
+.box{
+    padding:146px 40px 27px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.box_text{
+font-family: 'Sen';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+color: #7C2136;
+}
+.box_link{
+    padding-bottom: 15px;
+}
+.box_link a{
+font-family: 'Sen';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+color: #000000;
+
+}
+.box_link a:hover{
+    color: #D84A6B;
+    font-size: 34px;
+}
+
+.box_img p{
+    width: 380px;
+    margin-top: 25px;
+    margin-left: 50px;
+}

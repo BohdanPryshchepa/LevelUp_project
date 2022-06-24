@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css2?family=Sen:wght@400;700&family=Spicy+Rice&display=swap);
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+   
+    min-width: 320px;
+    background: linear-gradient(180deg, #FFC0CF 0%, rgba(255, 192, 207, 0.6) 54.17%, rgba(255, 192, 207, 0.75) 100%) 
+    
+}
+body{
+    
+    font-family: Sen;
+    font-weight: 400;
+    font-size: 24px;
+    background: no-repeat;
+}
+a{
+    text-decoration: none;
+   
+}
+a:visited{
+    color:#D84A6B
+}
+
+
+li{
+    list-style: none;
+}
+
+.page{
+    flex: 1 1 auto ;
+}
+
+[class*="__container"]{
+    max-width: 1110px;
+    margin: 0 auto;
+   
+}
+.title{
+font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: 0.07em;
+color: #8F3046;
+}
+a,button{
+    cursor: pointer;
+}

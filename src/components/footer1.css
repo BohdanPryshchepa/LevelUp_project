@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 101px 0;
+    align-items: center;
+}
+.footer p{
+font-family: Sen;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;        
+text-transform: uppercase;
+color: #8F3046;
+padding-left: 156px;
+padding-right: 132px;
+}
+.social{
+    display: flex;
+    gap: 24px;
+    }; 

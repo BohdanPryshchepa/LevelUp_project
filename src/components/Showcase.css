@@ -1,0 +1,40 @@
+.face_text{
+padding-top: 146.79px;
+padding-left: 337px;
+padding-bottom: 100px;
+position: relative;
+}
+.face_text h2:nth-child(2){
+    padding-left: 60px;
+}
+.face_text h2:nth-child(3){
+    padding-left: 125px;
+}
+.face_text h2{
+font-family: Spicy Rice;
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 50px;
+letter-spacing: 0.07em;
+color: #1F1F1F;
+}
+.face_bnt{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+.showcase{
+    position: relative;
+    padding-bottom: 470px;
+}
+.face_text img:last-child{
+    position: absolute;
+    top: 60px;
+    right: -170px;
+}
+
+[alt="left_donut"]{
+    position: absolute;
+    left: -100px;
+}

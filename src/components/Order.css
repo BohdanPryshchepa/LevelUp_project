@@ -1,0 +1,108 @@
+.case_text h2{
+    padding-bottom: 22px;
+}
+.case_text p{
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.07em;
+color: #CE5571;
+padding-right: 371px;
+padding-bottom: 60px;
+}
+.card_items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:30px;
+}
+.card{border: 2px solid #968787;
+display: grid;
+text-align: center;
+}
+.offer{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 15px 25px 20px;
+    align-items: center;
+}
+.card_title{
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+letter-spacing: 0.07em;
+color: #202020;
+padding-bottom: 17px;
+}
+.card_info{
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.07em;
+color: #2E2E2E;
+padding-bottom: 15px;
+}
+.card_img{
+    padding: 35px 35px 25px 35px;
+}
+.card_img img{
+    width: 175px;
+    height: 171px;
+}
+.price{
+font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.07em;
+color: #000000;
+}
+.to_cart{
+font-family: 'Sen';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #202020;
+padding: 12px;
+background: #D84A6B;
+border-radius: 25px;
+border-color: #D84A6B;
+}
+.to_cart:hover{
+    color:#FAEADB;
+}
+.btn_order{
+    padding: 18px 21px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    background: #D84A6B;
+    border-radius: 25px;
+    border-color: #D84A6B;
+    
+}
+.btn_order:hover{
+    color:#FAEADB;
+    
+  }
+.order_box{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 170px;
+    padding-top: 34px;
+
+}
+
+
+
+
+
+
+
